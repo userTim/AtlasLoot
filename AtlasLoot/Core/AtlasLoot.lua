@@ -353,7 +353,7 @@ function AtlasLoot_OnVariablesLoaded()
 	--Position relevant UI objects for loot browser and set up menu
 	AtlasLootDefaultFrame_SelectedCategory:SetPoint("TOP", "AtlasLootDefaultFrame_Menu", "BOTTOM", 0, -4);
 	AtlasLootDefaultFrame_SelectedTable:SetPoint("TOP", "AtlasLootDefaultFrame_SubMenu", "BOTTOM", 0, -4);
-	AtlasLootDefaultFrame_SelectedCategory:SetText(AL["Choose Table ..."]);
+	AtlasLootDefaultFrame_SelectedCategory:SetText("");
 	AtlasLootDefaultFrame_SelectedTable:SetText("");
 	AtlasLootDefaultFrame_SelectedCategory:Show();
 	AtlasLootDefaultFrame_SelectedTable:Show();
@@ -623,7 +623,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 			dataID = NormalID
 		end
 	end
-	
+
 	--Hide UI objects so that only needed ones are shown
 	for i = 1, 30, 1 do
         getglobal("AtlasLootItem_"..i.."_Unsafe"):Hide();
@@ -818,7 +818,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		--Decide whether to show the Heroic mode toggle
         --Checks if a heroic version of the loot table is available.
 		NormalID, HeroicID, Normal25ID, Heroic25ID = AtlasLoot_GetLoottableHeroic(AtlasLootItemsFrame.refreshOri[1])
-		
+
 		if AtlasLoot.db.profile.Bigraid and Normal25ID and NormalID then
 			AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"])
 			AtlasLoot10Man25ManSwitch.lootpage = NormalID
