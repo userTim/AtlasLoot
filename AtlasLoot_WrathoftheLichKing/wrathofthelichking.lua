@@ -3301,6 +3301,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#", "", "28%"};
 		{ 18, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#", "", "36%"};
 		Prev = "Naxx80Gluth2";
+		Next = "Naxx80AnubRekhan";
 	};
 
 	AtlasLoot_Data["Naxx80Thaddius25Man"] = {
@@ -3318,6 +3319,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "", "58%"};
 		{ 18, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
 		Prev = "Naxx80Gluth225Man";
+		Next = "Naxx80AnubRekhan25Man"
 	};
 
 		------------------------
@@ -3336,6 +3338,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 39141, "", "=q4=Deflection Band", "=ds=#s13#", "", "10%"};
 		{ 10, 39140, "", "=q4=Knife of Incision", "=ds=#h1#, #w4#", "", "11%"};
 		Next = "Naxx80Faerlina";
+		Prev = "Naxx80Thaddius";
 	};
 
 	AtlasLoot_Data["Naxx80AnubRekhan25Man"] = {
@@ -3362,6 +3365,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#", "", "10%"};
 		{ 22, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
 		{ 23, 39712, "", "=q4=Gemmed Wand of the Nerubians", "=ds=#w12#", "", "24%"};
+		Prev = "Naxx80Thaddius25Man";
 		Next = "Naxx80Faerlina25Man";
 	};
 
@@ -3421,6 +3425,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 39221, "", "=q4=Wraith Spear", "=ds=#w7#", "", "10%"};
 		{ 10, 39233, "", "=q4=Aegis of Damnation", "=ds=#w8#", "", "10%"};
 		Prev = "Naxx80Faerlina";
+		Next = "Naxx80Razuvious";
 	};
 
 	AtlasLoot_Data["Naxx80Maexxna25Man"] = {
@@ -3449,6 +3454,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 39763, "", "=q4=Wraith Strike", "=ds=#h3#, #w13#", "", "9%"};
 		{ 24, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#", "", "9%"};
 		Prev = "Naxx80Faerlina25Man";
+		Next = "Naxx80Razuvious25Man"
 	};
 
 		------------------------
@@ -3466,6 +3472,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 39298, "", "=q4=Waistguard of the Tutor", "=ds=#s10#, #a4#", "", "10%"};
 		{ 9, 39311, "", "=q4=Scepter of Murmuring Spirits", "=ds=#s15#", "", "10%"};
 		{ 10, 39296, "", "=q4=Accursed Bow of the Elite", "=ds=#w2#", "", "10%"};
+		Prev = "Naxx80Maexxna";
 		Next = "Naxx80Gothik";
 	};
 
@@ -3493,6 +3500,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
 		{ 22, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#, #w14#", "", "9%"};
 		{ 23, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#, #w15#", "", "9%"};
+		Prev = "Naxx80Maexxna25Man";
 		Next = "Naxx80Gothik25Man";
 	};
 
@@ -3550,6 +3558,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "", "19%"};
 		{ 18, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "", "25%"};
 		Prev = "Naxx80Gothik";
+		Next = "Naxx80Noth";
 	};
 
 	AtlasLoot_Data["Naxx80FourHorsemen25Man"] = {
@@ -3566,6 +3575,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40626, "", "=q4=Breastplate of the Lost Protector", "=ds=#e15#", "", "30%"};
 		{ 18, 40627, "", "=q4=Breastplate of the Lost Vanquisher", "=ds=#e15#", "", "40%"};
 		Prev = "Naxx80Gothik25Man";
+		Next = "Naxx80Noth25Man";
 	};
 
 		----------------------
@@ -3583,6 +3593,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 39235, "", "=q4=Bone-Framed Bracers", "=ds=#s8#, #a4#", "", "10%"};
 		{ 9, 39234, "", "=q4=Plague-Impervious Boots", "=ds=#s12#, #a4#", "", "10%"};
 		{ 10, 39244, "", "=q4=Ring of the Fated", "=ds=#s13#", "", "10%"};
+		Prev = "Naxx80FourHorsemen";
 		Next = "Naxx80Heigan";
 	};
 
@@ -3610,6 +3621,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#", "", "9%"};
 		{ 22, 40189, "", "=q4=Angry Dread", "=ds=#h1#, #w6#", "", "19%"};
 		{ 23, 40190, "", "=q4=Spinning Fate", "=ds=#w11#", "", "9%"};
+		Prev = "Naxx80FourHorsemen25Man";
 		Next = "Naxx80Heigan25Man";
 	};
 
@@ -3667,6 +3679,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#", "", "30%"};
 		{ 18, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
 		Prev = "Naxx80Heigan";
+		Next = "Naxx80Sapphiron"
 	};
 
 	AtlasLoot_Data["Naxx80Loatheb25Man"] = {
@@ -3684,6 +3697,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
 		Prev = "Naxx80Heigan25Man";
+		Next = "Naxx80Sapphiron25Man"
 	};
 
 		----------------------
@@ -3703,6 +3717,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 39407, "", "=q4=Circle of Life", "=ds=#s13#", "", "18%"};
 		{ 11, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m2#", "", "91%"};
 		{ 12, 44582, "", "=q4=Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
+		Prev = "Naxx80Loatheb";
 		Next = "Naxx80KelThuzad";
 	};
 
@@ -3729,6 +3744,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 40368, "", "=q4=Murder", "=ds=#h1#, #w4#", "", "19%"};
 		{ 22, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m2#", "", "92%"};
 		{ 23, 44581, "", "=q4=Heroic Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
+		Prev = "Naxx80Loatheb25Man";
 		Next = "Naxx80KelThuzad25Man";
 	};
 
