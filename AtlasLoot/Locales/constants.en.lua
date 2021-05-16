@@ -120,6 +120,13 @@ if AL then
 	AL["QuickLook"] = true;
 	AL["World Events"] = true;
 
+	AL["Naxx"] = true;
+	AL["OS"] = true;
+	AL["Maly"] = true;
+	AL["Uld"] = true;
+	AL["ToC"] = true;
+	AL["ICC"] = true;
+
 	-- AtlasLoot Panel - Search
 	AL["Clear"] = true;
 	AL["Last Result"] = true;
