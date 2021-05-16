@@ -192,16 +192,16 @@ AtlasLoot_DewDropDown = {
 			[11] = {
 				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
-            [12] = {
+			[12] = {
 				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
-            [13] = {
+			[13] = {
 				{ BabbleZone["The Ruby Sanctum"], "Halion", "Table" },
 			},
 			[14] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
-            [15] = {
+			[15] = {
 				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
 			},
 			[16] = {
@@ -255,6 +255,51 @@ AtlasLoot_DewDropDown = {
 		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
 	},
 };
+
+AtlasLoot_DewDropDown_Uld = {
+	[1] = {
+		{ "Levi", "UlduarLeviathan", "Table" }
+	},
+	[2] = {
+		{ "Razorscale", "UlduarRazorscale", "Table" }
+	},
+	[3] = {
+		{ "Ignis", "UlduarIgnis", "Table" }
+	},
+	[4] = {
+		{ "XT", "UlduarDeconstructor", "Table" }
+	},
+	[5] = {
+		{ "Iron Council", "UlduarIronCouncil", "Table" }
+	},
+	[6] = {
+		{ "Kologarn", "UlduarKologarn", "Table" }
+	},
+	[7] = {
+		{ "Algalon", "UlduarAlgalon", "Table" }
+	},
+	[8] = {
+		{ "Auriaya", "UlduarAuriaya", "Table" }
+	},
+	[9] = {
+		{ "Hodir", "UlduarHodir", "Table" }
+	},
+	[10] = {
+		{ "Thorim", "UlduarThorim", "Table" }
+	},
+	[11] = {
+		{ "Freya", "UlduarFreya", "Table" }
+	},
+	[12] = {
+		{ "Mimiron", "UlduarMimiron", "Table" }
+	},
+	[13] = {
+		{ "Vezzax", "UlduarVezax", "Table" }
+	},
+	[14] = {
+		{ "Yogg-Saron", "UlduarYoggSaron", "Table" }
+	},
+}
 
 --This table defines all the subtables needed for the full menu
 --Each sub table entry contains the text entry and the loot table that goes wih it
