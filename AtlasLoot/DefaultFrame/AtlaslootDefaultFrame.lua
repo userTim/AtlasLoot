@@ -57,14 +57,14 @@ function AtlasLoot_DewDropClick(tablename, text, tabletype)
         AtlasLoot_DewdropSubMenuRegister(AtlasLoot_DewDropDown_SubTables[tablename]);
         --Show a text label of what has been selected
         if AtlasLoot_DewDropDown_SubTables[tablename][1][1] ~= "" then
-            AtlasLootDefaultFrame_SelectedTable:SetText(AtlasLoot_DewDropDown_SubTables[tablename][1][1]);
+            AtlasLootDefaultFrame_SelectedTable:SetText("");
         else
-            AtlasLootDefaultFrame_SelectedTable:SetText(AtlasLoot_TableNames[AtlasLoot_DewDropDown_SubTables[tablename][1][2]][1]);
+            AtlasLootDefaultFrame_SelectedTable:SetText("");
         end
         AtlasLootDefaultFrame_SelectedTable:Show();
     end
     --Show the category that has been selected
-    AtlasLootDefaultFrame_SelectedCategory:SetText(text);
+    AtlasLootDefaultFrame_SelectedCategory:SetText("");
     AtlasLootDefaultFrame_SelectedCategory:Show();
     AtlasLoot_Dewdrop:Close(1);
 end 
@@ -84,9 +84,9 @@ function AtlasLoot_DewDropSubMenuClick(tablename, text)
     AtlasLoot.db.profile.LastBoss = tablename;
     --Show the table that has been selected
     if text ~= "" then
-        AtlasLootDefaultFrame_SelectedTable:SetText(text);
+        AtlasLootDefaultFrame_SelectedTable:SetText("");
     else
-        AtlasLootDefaultFrame_SelectedTable:SetText(AtlasLoot_TableNames[tablename][1]);
+        AtlasLootDefaultFrame_SelectedTable:SetText("");
     end
     AtlasLootDefaultFrame_SelectedTable:Show();
     AtlasLoot_DewdropSubMenu:Close(1);
@@ -408,7 +408,13 @@ function AtlasLoot_SetNewStyle(style)
 		"AtlasLootDefaultFrameSearchButton",
 		"AtlasLootDefaultFrameSearchClearButton",
 		"AtlasLootDefaultFrameLastResultButton",
-		"AtlasLootDefaultFrameWishListButton"
+		"AtlasLootDefaultFrameWishListButton",
+        "AtlasLootDefaultFrame_Naxx",
+        "AtlasLootDefaultFrame_Os",
+        "AtlasLootDefaultFrame_Maly",
+        "AtlasLootDefaultFrame_Uld",
+        "AtlasLootDefaultFrame_Toc",
+        "AtlasLootDefaultFrame_Icc",
 	}
 	
 	if style == "new" then
