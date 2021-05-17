@@ -531,3 +531,13 @@ function AtlasLoot_SetNewStyle(style)
 		
 	end
 end
+
+function AtlasLoot_Dewdrop_Open(targetTable) 
+    local openedTable = AtlasLoot_Dewdrop:GetOpenedParent()
+
+    if targetTable == openedTable then
+        return AtlasLoot_Dewdrop:Close();
+    else
+        AtlasLoot_Dewdrop:Open(targetTable);
+    end
+end
