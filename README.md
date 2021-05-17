@@ -2,7 +2,7 @@
 
 #### Features: 
  - Fixed minor inconvenience when using prev/next arrow buttons on naxx loot table page. In base version it's limited per quarter
- - WOTLK raid shortcut buttons: Naxxramas, The Obsidian Sanctum, Ulduar, Trial of the Crusader, Icecrown Citadel (~~fuck ruby sanctum~~)
+ - WOTLK raid shortcuts: Naxxramas, The Obsidian Sanctum, Ulduar, Trial of the Crusader, Icecrown Citadel (~~fuck ruby sanctum~~)
  - Rearranged **Options** and **Load Modules** buttons
  
 #### ElvUI_AddonSkins 
