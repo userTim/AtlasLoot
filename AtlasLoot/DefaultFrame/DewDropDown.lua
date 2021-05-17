@@ -258,46 +258,154 @@ AtlasLoot_DewDropDown = {
 
 AtlasLoot_DewDropDown_Uld = {
 	[1] = {
-		{ "Levi", "UlduarLeviathan", "Table" }
+		{ "Levi", "UlduarLeviathan", "Table", "Ulduar" }
 	},
 	[2] = {
-		{ "Razorscale", "UlduarRazorscale", "Table" }
+		{ "Razorscale", "UlduarRazorscale", "Table", "Ulduar" }
 	},
 	[3] = {
-		{ "Ignis", "UlduarIgnis", "Table" }
+		{ "Ignis", "UlduarIgnis", "Table", "Ulduar" }
 	},
 	[4] = {
-		{ "XT", "UlduarDeconstructor", "Table" }
+		{ "XT", "UlduarDeconstructor", "Table", "Ulduar" }
 	},
 	[5] = {
-		{ "Iron Council", "UlduarIronCouncil", "Table" }
+		{ "Iron Council", "UlduarIronCouncil", "Table", "Ulduar" }
 	},
 	[6] = {
-		{ "Kologarn", "UlduarKologarn", "Table" }
+		{ "Kologarn", "UlduarKologarn", "Table", "Ulduar" }
 	},
 	[7] = {
-		{ "Algalon", "UlduarAlgalon", "Table" }
+		{ "Algalon", "UlduarAlgalon", "Table", "Ulduar" }
 	},
 	[8] = {
-		{ "Auriaya", "UlduarAuriaya", "Table" }
+		{ "Auriaya", "UlduarAuriaya", "Table", "Ulduar" }
 	},
 	[9] = {
-		{ "Hodir", "UlduarHodir", "Table" }
+		{ "Hodir", "UlduarHodir", "Table", "Ulduar" }
 	},
 	[10] = {
-		{ "Thorim", "UlduarThorim", "Table" }
+		{ "Thorim", "UlduarThorim", "Table", "Ulduar" }
 	},
 	[11] = {
-		{ "Freya", "UlduarFreya", "Table" }
+		{ "Freya", "UlduarFreya", "Table", "Ulduar" }
 	},
 	[12] = {
-		{ "Mimiron", "UlduarMimiron", "Table" }
+		{ "Mimiron", "UlduarMimiron", "Table", "Ulduar" }
 	},
 	[13] = {
-		{ "Vezzax", "UlduarVezax", "Table" }
+		{ "Vezzax", "UlduarVezax", "Table", "Ulduar" }
 	},
 	[14] = {
-		{ "Yogg-Saron", "UlduarYoggSaron", "Table" }
+		{ "Yogg-Saron", "UlduarYoggSaron", "Table", "Ulduar" }
+	},
+}
+
+AtlasLoot_DewDropDown_Naxx = {
+	[1] = {
+		{ "Patchwerk", "Naxx80Patchwerk", "Table", "Naxxramas80" }
+	},
+	[2] = {
+		{ "Grobbulus", "Naxx80Patchwerk", "Table", "Naxxramas80" }
+	},
+	[3] = {
+		{ "Gluth", "Naxx80Gluth1", "Table", "Naxxramas80" }
+	},
+	[4] = {
+		{ "Thaddius", "Naxx80Thaddius", "Table", "Naxxramas80" }
+	},
+	[5] = {
+		{ "Anub'Rekhan", "Naxx80AnubRekhan", "Table", "Naxxramas80" }
+	},
+	[6] = {
+		{ "Faerlina", "Naxx80Faerlina", "Table", "Naxxramas80" }
+	},
+	[7] = {
+		{ "Maexxna", "Naxx80Maexxna", "Table", "Naxxramas80" }
+	},
+	[8] = {
+		{ "Razuvious", "Naxx80Razuvious", "Table", "Naxxramas80" }
+	},
+	[9] = {
+		{ "Gothik", "Naxx80Gothik", "Table", "Naxxramas80" }
+	},
+	[10] = {
+		{ "4 Horsemen", "Naxx80FourHorsemen", "Table", "Naxxramas80" }
+	},
+	[11] = {
+		{ "Noth", "Naxx80Noth", "Table", "Naxxramas80" }
+	},
+	[12] = {
+		{ "Heigan", "Naxx80Heigan", "Table", "Naxxramas80" }
+	},
+	[13] = {
+		{ "Loatheb", "Naxx80Loatheb", "Table", "Naxxramas80" }
+	},
+	[14] = {
+		{ "Sapphiron", "Naxx80Sapphiron", "Table", "Naxxramas80" }
+	},
+	[15] = {
+		{ "Kel'Thuzad", "Naxx80KelThuzad", "Table", "Naxxramas80" }
+	},
+}
+
+AtlasLoot_DewDropDown_Toc = {
+	[1] = {
+		{ "Icehowl", "TrialoftheCrusaderNorthrendBeasts_A", "Table", "TrialoftheCrusader_A" }
+	},
+	[2] = {
+		{ "Jaraxxus", "TrialoftheCrusaderLordJaraxxus_A", "Table", "TrialoftheCrusader_A" }
+	},
+	[3] = {
+		{ "Faction Champions", "TrialoftheCrusaderFactionChampions_A", "Table", "TrialoftheCrusader_A" }
+	},
+	[4] = {
+		{ "Valkyrs", "TrialoftheCrusaderTwinValkyrs_A", "Table", "TrialoftheCrusader_A" }
+	},
+	[5] = {
+		{ "Anubarak", "TrialoftheCrusaderAnubarak_A", "Table", "TrialoftheCrusader_A" }
+	},
+	[6] = {
+		{ "Tribute Run", "TrialoftheCrusaderTributeHEROIC_A", "Table", "TrialoftheCrusader_A" }
+	},
+}
+
+AtlasLoot_DewDropDown_Icc = {
+	[1] = {
+		{ "Marrowgar", "ICCLordMarrowgar", "Table", "IcecrownCitadel" }
+	},
+	[2] = {
+		{ "Lady", "ICCLadyDeathwhisper", "Table", "IcecrownCitadel" }
+	},
+	[3] = {
+		{ "Gunship", "ICCGunshipBattle", "Table", "IcecrownCitadel" }
+	},
+	[4] = {
+		{ "Saurfang", "ICCSaurfang", "Table", "IcecrownCitadel" }
+	},
+	[5] = {
+		{ "Fester", "ICCFestergut", "Table", "IcecrownCitadel" }
+	},
+	[6] = {
+		{ "Rotface", "ICCRotface", "Table", "IcecrownCitadel" }
+	},
+	[7] = {
+		{ "Putricide", "ICCPutricide", "Table", "IcecrownCitadel" }
+	},
+	[8] = {
+		{ "Blood Council", "ICCCouncil", "Table", "IcecrownCitadel" }
+	},
+	[9] = {
+		{ "Blood Queen", "ICCLanathel", "Table", "IcecrownCitadel" }
+	},
+	[10] = {
+		{ "Valithria", "ICCValithria", "Table", "IcecrownCitadel" }
+	},
+	[11] = {
+		{ "Sindy", "ICCSindragosa", "Table", "IcecrownCitadel" }
+	},
+	[12] = {
+		{ "Lich King", "ICCLichKing", "Table", "IcecrownCitadel" }
 	},
 }
 
