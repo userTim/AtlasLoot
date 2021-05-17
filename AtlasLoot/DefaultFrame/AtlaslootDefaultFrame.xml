@@ -101,7 +101,11 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						AtlasLoot_DewDropClick("Naxxramas80", "Naxxramas", "Submenu")
+						if AtlasLoot_Dewdrop:IsOpen() then
+							AtlasLoot_Dewdrop:Close();
+						else
+							AtlasLoot_Dewdrop:Open(this);
+						end
 					</OnClick>
 					<OnShow>
 						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
@@ -167,7 +171,11 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						AtlasLoot_DewDropClick("Ulduar", "Ulduar", "Submenu")
+						if AtlasLoot_Dewdrop:IsOpen() then
+							AtlasLoot_Dewdrop:Close();
+						else
+							AtlasLoot_Dewdrop:Open(this);
+						end
 					</OnClick>
 					<OnShow>
 						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
@@ -189,7 +197,11 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						AtlasLoot_DewDropClick("TrialoftheCrusader_A", "Trial of the Crusader", "Submenu")						
+						if AtlasLoot_Dewdrop:IsOpen() then
+							AtlasLoot_Dewdrop:Close();
+						else
+							AtlasLoot_Dewdrop:Open(this);
+						end
 					</OnClick>
 					<OnShow>
 						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
@@ -211,7 +223,11 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						AtlasLoot_DewDropClick("IcecrownCitadel", "Icecrown Citadel", "Submenu")
+						if AtlasLoot_Dewdrop:IsOpen() then
+							AtlasLoot_Dewdrop:Close();
+						else
+							AtlasLoot_Dewdrop:Open(this);
+						end
 					</OnClick>
 					<OnShow>
 						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
